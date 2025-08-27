@@ -1,0 +1,41 @@
+{
+  "name": "3d-carousel-photo-gallery",
+  "version": "1.0.0",
+  "description": "一个美丽的3D旋转木马照片展示网站，支持触摸滑动和响应式设计",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "python3 -m http.server 8000 || python -m http.server 8000",
+    "start": "npm run dev",
+    "clean": "rm -rf build",
+    "prebuild": "npm run clean",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "3d-carousel",
+    "photo-gallery",
+    "responsive",
+    "touch-enabled",
+    "javascript",
+    "css3",
+    "html5"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/3d-carousel-photo-gallery.git"
+  },
+  "homepage": "https://your-site.netlify.app",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
